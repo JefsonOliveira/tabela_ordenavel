@@ -1,0 +1,13 @@
+/* eslint-disable react/prop-types */
+
+const TableRow = ({row}) => {
+  return (
+    <tr>
+      <td>{row.nome}</td>
+      <td>{row.idade}</td>
+      <td>{row.cargo}</td>
+    </tr>
+  )
+}
+
+export default TableRow;
